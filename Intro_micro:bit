@@ -6,16 +6,29 @@
    https://make.techwillsaveus.com/bbc-microbit/activities/power-on-the-bbc-microbit-for-the-first-time 
    
    
-   1. 
+   basic.forever(() => {
    
    basic.showLeds(`
-    . # . # .
-    # # # # #
-    # # # # #
-    . # # # .
-    . . # . .
-    `)
-
-2. 
+        . # . # .
+        # # # # #
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
    
-  
+   basic.showLeds(`
+        . # . # .
+        # . . . #
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+   
+   basic.showLeds(`
+        . . . . .
+        . # . # .
+        . # # # .
+        . . # . .
+        . . . . .
+        `)
+})
